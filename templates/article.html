@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %} {{ article.title }} | {{ SITENAME }} {% endblock %}
+
+{% block content %}
+    <h1 class="title"> {{ article.title }}</h1>
+    <p class=date> {{ article.date.strftime('%d %B %Y') }} </p>
+    {{ article.content }}
+    
+    {% include "twitter.html" %}
+    <p class=tags>This entry was tagged as
+      {% for tag in article.tags %}
+      <a href="{{ SITEURL }}/tag/{{ tag }}.html">{{ tag }}</a>
+      {% endfor %}
+    </p>
+    {% include "disqus.html" %}
+{% endblock %}
