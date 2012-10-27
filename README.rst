@@ -5,7 +5,7 @@ Pelican theme I created for fjavieralba.com
 
 In order to correctly use this theme you will need this variables in your pelican conf.py:
 
-.. code-block:: python
+..
 	# -*- coding: utf-8 -*-
     AUTHOR = u'Your Name'
     SITENAME = u"Your site name"
