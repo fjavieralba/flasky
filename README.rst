@@ -3,9 +3,8 @@ flasky
 
 Pelican theme I created for fjavieralba.com
 
-In order to correctly use this theme you will need this variables in your pelican conf.py:
+In order to correctly use this theme you will need this variables in your pelican conf.py::
 
-::
     AUTHOR = u'Your Name'
     SITENAME = u"Your site name"
     SITEURL = 'blog'
