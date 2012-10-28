@@ -10,6 +10,14 @@ In order to correctly use this theme you will need this variables in your pelica
     SITEURL = 'blog'
     TIMEZONE = "Europe/Madrid"
 
+    #Navigation sections and relative URL:
+    SECTIONS = [('Blog', 'index.html'),
+            ('Archive', 'archives.html'),
+            ('Tags', 'tags.html'),
+            ('Projects', 'pages/projects.html'),
+            ('Talks', 'pages/talks.html'),
+            ('About', 'pages/about-me.html')]
+
     DEFAULT_CATEGORY = 'Uncategorized'
     DATE_FORMAT = {
     'en': '%d %m %Y'
