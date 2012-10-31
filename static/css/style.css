@@ -39,7 +39,7 @@ div.footer                  { border-top: 1px dotted #ddd; padding-top: 9px;
 div.footer a                { color: #888; }
 div.footer p                { margin: 0; }
 
-div.social                  { padding-top: 10px; padding-bottom: 10px;}
+div.social                  { padding-top: 20px; padding-bottom: 10px;}
 div.social a                { color: #888; text-decoration: none;}
 div.social ul               { margin: 0; padding: 0; list-style: none; }
 div.social ul li            { display: inline; margin: 0 2px; padding: 0; }
