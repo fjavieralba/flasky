@@ -9,7 +9,7 @@
 {% if articles %}
   {% for article in (articles_page.object_list if articles_page else articles) %}
     <div class=entry-overview>
-      <div class=date>{{ article.date.strftime('%d %B %Y') }}</div>
+      <div class=date>{{ article.date.strftime('%b %d, %Y') }}</div>
       <div class=detail>
           <h1><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
           <div class=summary><p> {{ article.excerpt }}</p></div>
