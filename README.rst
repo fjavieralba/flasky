@@ -41,6 +41,10 @@ In order to correctly use this theme you will need this variables in your pelica
 
     GOOGLE_ANALYTICS_ACCOUNT = 'UA-00000000-1'
 
+    PIWIK_URL = 'myurl.com/piwik'
+    PIWIK_SSL_URL = 'myurl.com/piwik'
+    PIWIK_SITE_ID = '1'
+
     MAIL_USERNAME = 'your_user'
     MAIL_HOST = 'gmail.com'
 
