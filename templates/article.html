@@ -4,7 +4,7 @@
 
 {% block content %}
     <h1 class="title"> {{ article.title }}</h1>
-    <p class=date> {{ article.date.strftime('%d %B %Y') }} </p>
+    <p class=date> {{ article.locale_date }} </p>
     {{ article.content }}
     
     {% include "twitter.html" %}
