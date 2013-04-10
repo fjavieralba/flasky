@@ -30,7 +30,7 @@ In order to correctly use this theme you will need this variables in your pelica
     TWITTER_USERNAME = 'your_twitter_user_without @'
     LINKEDIN_URL = 'http://es.linkedin.com/in/you/en'
     GITHUB_URL = 'http://github.com/you'
-    FACEBOOK_URL = 'http://www.facebool.com/you'
+    FACEBOOK_URL = 'http://www.facebook.com/you'
     GOOGLEPLUS_URL = 'https://plus.google.com/your_profile_id/posts'
     PINTEREST_URL = 'http://pinterest.com/you'
 
