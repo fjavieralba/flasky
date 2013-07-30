@@ -57,6 +57,7 @@ h1 + p.date                     { margin-top: -20px; font-style: italic; }
 pre, code, tt   { font-family: 'Consolas', 'Deja Vu Sans Mono',
                   'Bitstream Vera Sans Mono', 'Monaco', 'Courier New';
                   font-size: 0.85em;
+                  overflow: auto;
                 }
 pre             { /*line-height: 1.3;*/ border: 1px solid #ddd; padding: 10px;
                   /* background: #fafafa; */
