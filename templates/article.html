@@ -15,5 +15,7 @@
       {% endfor %}
     </p>
     {% endif %}
-    {% include "disqus.html" %}
+    {% if DISQUS_SITENAME is defined %}
+        {% include "disqus.html" %}
+    {% endif %}
 {% endblock %}
