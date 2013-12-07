@@ -1,7 +1,7 @@
 flasky
 ======
 
-This version of flasky has been tweaked to suit my site iamkenju254.com
+Pelican theme I created for fjavieralba.com
 Feel free to add and also tweak it and add more features to it
 
 
@@ -68,7 +68,7 @@ Pelican comes with its own default theme, so when you want  download this theme 
 
 First, choose a location to hold your theme. For this example, we'll use the directory ~/themes, but yours could be different. Clone the pelican-themes repository to that location on your local machine:
 
-git clone https://github.com/kenju254/flasky ~/themes
+git clone https://github.com/fjavieralba/flasky ~/themes
 Now you should have your pelican-themes repository stored at ~/themes/.
 
 To use one of the themes, edit your Pelican settings file to include this line:
