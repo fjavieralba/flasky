@@ -17,14 +17,18 @@ h1, h2                      { margin: 10px 0 25px 0; }
 h1                          { font-size: 48px; line-height: 52px; }
 h2                          { font-size: 36px; line-height: 40px; }
 
+/* colors */
+.muted                      { color: rgb(153, 153, 153); }
+
+
 /* layout elements */
 div.container               { width: 740px; margin: 48px auto; padding: 0; }
 div.header                  { float: left; }
-div.navigation              { float: left; }
-div.navigation a            { text-decoration: none; 
-                              font-size: 22px; 
-                              padding: 10px;
-                            }
+div.navigation              { float: right; }
+div.header a, div.navigation a	{ text-decoration: none; 
+				  font-size: 22px; 
+				  padding: 10px;
+				}
 
 div.separator               {border-bottom: 1px dotted #ddd; padding-bottom: 42px;
                               margin-bottom: 42px; font-size: 16px; color: #888;
@@ -32,7 +36,7 @@ div.separator               {border-bottom: 1px dotted #ddd; padding-bottom: 42p
 div.header, div.navigation  { height: 25px; margin-bottom: 42px; }
 div.navigation ul           { margin: 0; padding: 0; list-style: none; }
 div.navigation ul li        { display: inline; margin: 0 2px; padding: 0;}
-div.body                    { clear: both; }
+div.body                    { clear: both; font-size: 1.1em;}
 div.footer                  { border-top: 1px dotted #ddd; padding-top: 9px;
                               margin-top: 42px; font-size: 16px; color: #888;
                               text-align: center; }
@@ -57,6 +61,7 @@ h1 + p.date                     { margin-top: -20px; font-style: italic; }
 pre, code, tt   { font-family: 'Consolas', 'Deja Vu Sans Mono',
                   'Bitstream Vera Sans Mono', 'Monaco', 'Courier New';
                   font-size: 0.85em;
+                  overflow: auto;
                 }
 pre             { /*line-height: 1.3;*/ border: 1px solid #ddd; padding: 10px;
                   /* background: #fafafa; */
@@ -110,10 +115,10 @@ p.tags          { text-align: right; font-style: italic; }
 ul.tagcloud     { font-size: 16px; margin: 36px 0; padding: 0;
                   list-style: none; }
 ul.tagcloud li  { margin: 0; padding: 0 10px; display: inline; }
-li.tag-1           {font-size: 100.0%;}
-li.tag-2           {font-size: 130.0%;}
-li.tag-3           {font-size: 160.0%;}
-li.tag-4           {font-size: 200.0%;}
+li.tag-1           {font-size: 200.0%;}
+li.tag-2           {font-size: 160.0%;}
+li.tag-3           {font-size: 130.0%;}
+li.tag-4           {font-size: 100.0%;}
 
 /* latex math */
 span.math img   { margin-bottom: -7px; }
