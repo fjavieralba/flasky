@@ -1,11 +1,11 @@
 <div class="header">
-    <a href="{{ SITEURL }}/">{{SITENAME}}</a> <span class="muted">{{SITESUBTITLE}}</span>
+    <a href="index.html">{{SITENAME}}</a> <span class="muted">{{SITESUBTITLE}}</span>
 </div>
 
 <div class=navigation>
     <ul>
         {% for section in SECTIONS %}
-            <li><a href="{{ SITEURL }}/{{ section[1]}}">{{ section[0] }}</a> </li>
+            <li><a href="/{{ section[1]}}">{{ section[0] }}</a> </li>
         {% endfor %}
     </ul>
 </div>
